@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var winnerLabel: UILabel!
     
     var dealer = Dealer()
-    var enteredName = ""
     
     func playGame() -> Player {
         var turn = "player"
